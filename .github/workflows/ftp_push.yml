@@ -16,4 +16,5 @@ jobs:
         local-dir: dist/src/
         server-dir: iamrfmzhxj/
         username: blumen-billmeier-haar.de
+        protocol: ftps
         password: ${{ secrets.ftp_password }}
