@@ -47,8 +47,9 @@ Table of Contents:
 		parallax();
 	});
 
+
 	/* 3. SVG loader
-	====================*/
+	====================
 	function mycallback(){
 		this.el.classList.add('finish');
 	}
@@ -62,7 +63,7 @@ Table of Contents:
 		start: 'autostart',
 		dashGap: 20,
 		forceRender: false
-	}, mycallback);
+	}, mycallback);*/
 
 	/* 4. Navbar collapse
 	====================*/
