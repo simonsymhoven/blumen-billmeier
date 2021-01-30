@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600');
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Palanquin:200,300,400,500');
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+.header-hero {
+    height: 680px; !important;
+    background: url('../image/background.JPG') 50%  no-repeat;
+    background-size: cover;
+}
+.header-hero .navbar {
+ 
+}
+.nb-section {
+    padding: 20px;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.ui.secondary.inverted.menu a.item {
+    color: rgb(0, 0, 0)!important;
+    font-size: 14px !important
+}
+
+.header-hero .nav-item {
+    text-transform: uppercase !important;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    margin-top: 50px !important;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    margin-top: 120px !important;
+}
+
+.datenschutz  {
+    padding: 30px;
+    background: #f3f3f3;
+    border-radius: 10px;
+}
+strong {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;    
+    font-weight: 500;
+}
+.first-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.first-header span {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 25px;
+}
+.besteht {    
+    text-align: center; 
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h3,
+.info-column span {
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 20px;
+}
+
+.service-grid {
+    max-width: 90%;
+    max-height: auto;
+    margin: 20px auto !important;
+}
+
+.service-column img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.service-column p {
+    padding-top: 15px;
+}
+
+.service-column h3 {
+    border-bottom-style: dotted;
+    padding:30px;
+}
+
+.hochzeite-grid {
+    margin-top: 60px !important;
+}
+
+.hochzeite-column {
+   height: auto;
+}
+
+.hochzeite-column:nth-child(1) {
+    background: url('../image/hochzeit/hochzeite_1.JPG')center 0 no-repeat;
+    background-size: cover;
+}
+
+.hochzeite-column:nth-child(2) {
+    background: #ffcb38;
+  
+}
+
+.hochzeite-container {
+    width: 65% !important;
+	padding-bottom: 20px;
+    margin-top: 20px;
+}
+.hochzeite-column:nth-child(3) {
+    background: url('../image/hochzeit/hochzeite_4.jpeg')center 0 no-repeat;
+    background-size: cover;
+}
+.hochzeite-column:nth-child(4) {
+    background: url('../image/hochzeit/hochzeite_4.jpeg')center 0 no-repeat;
+    background-size: cover;
+}
+
+.uns {
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px;
+}
+
+.uns-container {
+    font-size: ;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
+    padding: 10px 0;
+    height: auto;
+    padding: 30px;
+}
+
+.trauer-grid {
+    margin-top: 100px !important;
+}
+
+.trauer-column {
+    height: auto;
+}
+
+.trauer-column:nth-child(1) {
+    background: #ffcb38;
+}
+
+.trauer-column:nth-child(2) {
+    background: url('../image/trauer/trauer.JPG');
+    background-size: cover;
+}
+.herzen {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.gallery-grid {
+    margin-top: 40px !important;
+    height: 40%;
+}
+
+.gallery-grid .gallery-column img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.gallery .quote {
+    height: auto;
+}
+
+.quote {
+    text-align: center; 
+    margin-top: 50px;
+}
+
+.quote h3,
+.quote p {
+    padding: 20px;
+}
+
+.contact {
+    position: absolute;  
+    height: auto; 
+    width: auto!important;
+    margin-top: -500px;
+    background: #fff;
+    border-radius: 15px;
+    font-size: 22px;
+    padding: 20px;
+    right: 5%;
+    
+}
+
+.contact .contact-list {
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.contact .contact-item {
+    margin: 10px;
+    padding: 0 !important;
+
+}
+
+.zeiten {
+    
+    font-size: 25px;
+}
+
+footer {
+    height:auto;
+    background: #000;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    padding-top: 50px;
+}
+/*
+
+*/
+.mehr, .mehr-bilder {
+    border: 1px solid black;
+    padding: 5px 40px;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.mehr:hover, .mehr-bilder:hover {
+    background: black;
+    color: #fff;
+}
+.toc.item {
+  font-size: 20px;
+  display: none !important; 
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+    background-color: rgb(0,0,0) ;
+    color: #fff;
+    text-align: center;
+}
+.modal.pink {
+    background-color: rgb(0,0, 0);    
+}
+.modal-column img {
+    
+    width: 100%;
+    height: auto;
+     margin-top: 100px;
+    -ms-transform: rotate(90deg);-webkit-transform: rotate(90deg);transform: rotate(90deg);
+
+}
+.close {
+    position: fixed;    
+    font-size: 90px;
+    color: #fff;
+    padding: 40px;
+    z-index: 10000;   
+    cursor: pointer;
+    right: 3%;
+}
+
+@media only screen and (max-width: 820px){
+  
+

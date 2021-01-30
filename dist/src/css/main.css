@@ -1185,6 +1185,10 @@ input.search-field {
 	margin-bottom: 30px;
 }
 
+.slick-list img {
+	text-align: center;
+}
+
 .gallery__slider-num {
 	position: absolute;
 	bottom: -79px;

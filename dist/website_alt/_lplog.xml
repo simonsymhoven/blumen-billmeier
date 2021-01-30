@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<livepages>
+  <project>
+    <id>1329111</id>
+  </project>
+  <version>1</version>
+  <date>Sun Mar 30 16:29:59 CEST 2014</date>
+  <pages>
+    <page>
+      <id>14883020</id>
+      <name>index.html</name>
+    </page>
+    <page>
+      <id>17087455</id>
+      <name>service.html</name>
+    </page>
+    <page>
+      <id>14883029</id>
+      <name>oeffnungszeiten.html</name>
+    </page>
+    <page>
+      <id>14883030</id>
+      <name>kontakt.html</name>
+    </page>
+    <page>
+      <id>14883032</id>
+      <name>impressum.html</name>
+    </page>
+  </pages>
+</livepages>
+
